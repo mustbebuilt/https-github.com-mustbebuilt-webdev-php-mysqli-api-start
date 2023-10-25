@@ -3,6 +3,7 @@ require_once("includes/config.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE edge" />
@@ -10,12 +11,11 @@ require_once("includes/config.php");
     <title>SHU Films | Catalogue</title>
     <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 720px)" />
-	    <script src="js/main.js" defer></script>
-	    <script src="js/allData.js" defer></script>
-		<script src="js/randomData.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    <?php include("includes/header.php")?>
+    <?php include("includes/header.php") ?>
     <div class="mainContainer">
         <main>
             <div class="banner">
@@ -39,6 +39,7 @@ require_once("includes/config.php");
             </section>
         </main>
     </div>
-    <?php include("includes/footer.php")?>   
+    <?php include("includes/footer.php") ?>
 </body>
+
 </html>
